@@ -1,13 +1,8 @@
 window.onload = addEventListener("load", ()=> {
     var pre = document.querySelector("div.preloader");
-    console.log(pre);
     pre.classList += " preadd";
-})
+});
 
-
-
-
-    
 
 
 const colors = ['rgb(145, 27, 241)', 'red', 'rgb(58, 141, 250)', 'rgb(214, 230, 3)', 'rgb(21, 202, 51)'];
@@ -43,4 +38,3 @@ function createSquare(){
 }
 
 setInterval(createSquare, 150);
-

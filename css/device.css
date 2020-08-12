@@ -8,13 +8,13 @@
     div.container {
         width: 96%;
     }
-    div.section1 h1 {
+    div.section1 h1, div.section2 h1 {
         font-size: 150%;
         font-weight: bold;
         text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.993);
         color: yellow;
     }
-    div.section1 p {
+    div.section1 p, div.section2 p {
         font-size: 100%;
     }
     div.first-section h1 {
@@ -29,15 +29,32 @@
     a.content:hover {
         font-size: 30px;
     }
+    div.s-link {
+        padding: 5px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    div.slide-title {
+        font-size: 120%;
+    }
+    div.slide-des {
+        font-size: 16px;
+    }
+    div.slide-page {
+        margin: 10px 0 0 0;
+        padding: 10px;
+    }
 }
 
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-    div.section1 h1 {
+    div.section1 h1, div.section2 h1 {
         font-size: 220%;
     }
-    div.section1 p {
+    div.section1 p, div.section2 p {
         font-size: 130%;
     }
     a.content {
@@ -48,5 +65,9 @@
     }
     a.content:hover {
         font-size: 32px;
+    }
+    div.s-link {
+        padding: 10px;
+        font-size: 120%;
     }
 }

@@ -1,4 +1,8 @@
-
+body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
 
 .preadd {
     animation: fadeout 1s 0s ease 1;
