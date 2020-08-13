@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../css/eat.css">
     <link rel="stylesheet" href="../css/device.css">
     <link rel="stylesheet" href="boxmod.css">
+    <link rel="stylesheet" href="../css/code.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <title>Code Cure - C programming</title>
 </head>
@@ -51,7 +52,16 @@
     <div class="container intro">
         <div class="slide-box">
             <div class="slide-title">
+                <!--<div class="language">
+                    <b class="text-center" id="lang">English</b>
+                    <div class="switch">
+                        <div class="bar" id="langBar">
+                            <div class="dot" id="langLetter">E</div>
+                        </div>
+                    </div>
+                </div>-->
                 <h1 class="white">Introduction</h1>
+                
             </div>
             <div class="slide-des">
                 <p class="white"> This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming. </p>
@@ -62,7 +72,7 @@
                 <div id="cl13" class="s-link bf">Components</div>
             </div>
             <div class="slide-container">
-                <div id="cp11" class="slide-view">
+                <div id="cp11" class="slide-view sv-300">
                     <div class="slide-page">
                         <h1>Page 1</h1>
                         <p>Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. <br> Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara.</p>
@@ -79,6 +89,165 @@
             </div>
         </div>
     </div>
+
+    <div class="container intro">
+        <div class="slide-box">
+            <div class="slide-title">
+                <h1 class="white">Writing Simple Hello World!</h1>
+            </div>
+            <div class="slide-des">
+                <p class="white"> This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming. </p>
+            </div>
+            <div class="slide-menu">
+                <div id="cl21" class="s-link af active">Hello World</div>
+                <div id="cl22" class="s-link">Syntax</div>
+                <div id="cl23" class="s-link bf">Description</div>
+            </div>
+            <div class="slide-container">
+                <div id="cp21" class="slide-view sv-300">
+                    <div class="slide-page">
+                        <h1>Writing hello World using C Program</h1>
+                        <p>
+                            <pre class="code-block">
+    <b class="green">#include &lt;stdio.h&gt;</b>
+    <b class="blue">int</b> main()
+    {
+        printf("Hello World!");
+        return 0;
+    }
+                            </pre>
+                            Write this code on your code editor and compile it. Then run. This code will print Hello World! To the screen.
+                        </p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Syntax</h1>
+                        <p>
+                            <ol type="1" style="padding: 10px;">
+                                <li>Header file / Library linking
+<pre class="code-block">
+    <b class="green">#include &lt;stdio.h&gt;</b>
+</pre>
+                                </li>
+                                <li>Main Function
+<pre class="code-block">
+    <b class="blue">int</b> main()
+</pre>
+                                </li>
+                                <li>Body of main function
+<pre class="code-block">
+    {
+        printf("Hello World!");
+        return 0; // return is also a function. It terminates the whole Program.
+    }
+</pre>
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Description</h1>
+                        <p>
+                            <ol type="1" style="padding: 10px;">
+                                <li>
+                                    Header File :&gt; <br> #include &lt;stdio.h&gt; (standard-input-output.header).
+                                </li>
+                                <li>
+                                    Main function :&gt; <br> Main function is the function which is must for a C program, cause compiler executes the whole program according to this function. You have to include all your function or call it from main function.
+                                </li>
+                                <li>
+                                    printf() :&gt;<br>printf is also a function which is need when we want to print anything string or number.
+                                </li>
+                                <li>
+                                    return 0; :&gt; <br>
+                                    return is also a funtion. It terminates the whole program. We need it and put it as where we want to finish the program.
+                                </li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container intro">
+        <div class="slide-box">
+            <div class="slide-title">
+                <h1 class="white">Data Type</h1>
+            </div>
+            <div class="slide-des">
+                <p class="white"> This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming.  This is C programming. </p>
+            </div>
+            <div class="slide-menu">
+                <div id="cl31" class="s-link af active">int</div>
+                <div id="cl32" class="s-link">float</div>
+                <div id="cl33" class="s-link">double</div>
+                <div id="cl34" class="s-link">char</div>
+                <div id="cl35" class="s-link bf">void</div>
+            </div>
+            <div class="slide-container">
+                <div id="cp31" class="slide-view sv-500">
+                    <div class="slide-page">
+                        <h1>Integer ( int )</h1>
+                        <p>int data type is needed when we want to work with integer. For example it can be a year, because year can not have floating point value. 
+<pre class="code-block">
+    <b class="blue">int </b>currentYear = 2020;
+    printf(<b class="orange">"This is %d"</b>, currentYear);
+</pre>
+                        <br>This will print the text This is 2020<br><br>
+
+                        <div class="point">
+                            <b class="point-head">Point to be noted :</b><br>
+                            <div class="point-body">
+                                <b class="point-indicator">Format Specifier : </b>%d<br>
+                                <b class="point-indicator">Storage : </b>1 byte<br>
+                                <b class="point-indicator">Max contains : </b> 6 digits<br>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Float ( float )</h1>
+                        <p>float data type is the data type with floating / decimal value. e.g. if you want print the value of PI = 3.1416, the you should use float or double data type.
+<pre class="code-block">
+    <b class="blue">float </b>PI = 3.1416;
+    printf(<b class="orange">"Value of PI = %f \n"</b>, PI);
+    printf(<b class="orange">"Value of PI = %0.4f \n"</b>, PI);
+    printf(<b class="orange">"Value of PI = %0.1f \n"</b>, PI);
+</pre>
+<pre class="code-block">
+    <b class="blue">Output :</b>
+    Value of PI = 3.141600
+    Value of PI = 3.1416
+    Value of PI = 3.1
+</pre>
+                        <br>
+                        <div class="point">
+                            <b class="point-head">Point to be noted :</b><br>
+                            <div class="point-body">
+                                <b class="point-indicator">Format Specifier : </b>%f<br>
+                                <b class="point-indicator">Storage : </b>1 byte<br>
+                                <b class="point-indicator">Max contains : </b> 9 digits<br>
+                            </div>
+                        </div>
+                        </p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Double ( double )</h1>
+                        <p>Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. <br> Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara.</p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Character ( char )</h1>
+                        <p>Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. <br> Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara.</p>
+                    </div>
+                    <div class="slide-page">
+                        <h1>Nothing ( void )</h1>
+                        <p>Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. <br> Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara. Lorem ipsum dolor sit amet, bara, raba, bara.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         
 
 
@@ -87,6 +256,7 @@
     
     
 
+    <script src="../js/script.js"></script>
     <script src="pagec.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+
+pre.code-block {
+    background: rgba(255, 255, 255, 0.863);
+    color: black;
+    border-left: 3px solid red;
+    border-radius: 5px;
+    font-family: consolas, sans-serif;
+    font-size: 110%;
+    overflow-x: auto;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+b.blue, b.green, b.orange {
+    font-weight: normal;
+}
+b.green {
+    color: green;
+}
+b.blue {
+    color: rgb(3, 135, 187);
+}
+b.orange {
+    color: rgb(161, 43, 0);
+}
+div.point {
+    width: 100%;
+}
+b.point-head {
+    background: rgba(209, 209, 209, 0.664);
+    color: rgb(226, 245, 57);
+    padding: 2px 10px;
+    border-radius: 3px;
+}
+div.point-body {
+    padding: 5px;
+    padding-left: 20px;
+}
+b.point-indicator {
+    text-decoration: underline;
+}

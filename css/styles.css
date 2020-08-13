@@ -171,6 +171,7 @@ div.box3 {
     opacity: 0.9;
     padding: 5px;
     margin-top: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.13);
 }
 .full {
     min-height: 100vh;
@@ -350,4 +351,8 @@ p {
 @font-face {
     font-family: googlesans;
     src: url('../fonts/Souravs\ sans.ttf');
+}
+@font-face {
+    font-family: consolas;
+    src: url('../fonts/CONSOLA.TTF');
 }

@@ -54,9 +54,23 @@ div.slide-container {
     overflow: hidden;
 }
 div.slide-view {
-    width: 300%;
     display: flex;
     transition: 0.5s;
+}
+.sv-100 {
+    width: 100%;
+}
+.sv-200 {
+    width: 200%;
+}
+.sv-300 {
+    width: 300%;
+}
+.sv-400 {
+    width: 400%;
+}
+.sv-500 {
+    width: 500%;
 }
 .slide-page {
     color: white;
