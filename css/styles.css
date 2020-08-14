@@ -294,6 +294,33 @@ div.section2 {
     background: linear-gradient(60deg, purple 50%, limegreen 50%);
 }
 
+div.contact {
+    margin-bottom: 80px;
+}
+div.contact div.part-box {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+div.contact div.part-box div.prt {
+    padding: 7px;
+    width: calc(100% / 3);
+}
+
+div.prt a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    display: block;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.3s;
+    word-wrap: break-word;
+}
+div.prt a:hover {
+    background: rgba(0, 0, 0, 0.336);
+}
 
 
 /*OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT OTHERS CONTENT*/

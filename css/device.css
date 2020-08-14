@@ -48,6 +48,9 @@
         font-size: 90%;
         border-radius: 5px;
     }
+    div.contact div.part-box div.prt {
+        width: 100%;
+    }
 }
 
 
@@ -71,5 +74,11 @@
     div.s-link {
         padding: 10px;
         font-size: 120%;
+    }
+    div.contact div.part-box div.prt {
+        width: 50%;
+    }
+    div.contact div.part-box div.soc {
+        width: 100%;
     }
 }

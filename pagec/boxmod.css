@@ -15,7 +15,6 @@ h1.mainc {
 }
 div.intro {
     background-color: rgba(0, 0, 0, 0.212);
-    margin-bottom: 80px;
 }
 div.slide-box {
     padding: 10px;
@@ -88,4 +87,20 @@ div.slide-view {
 .active, .s-link:hover {
     background: red;
     color: white;
+}
+div.table-pills{
+    width: 100%;
+    overflow: auto;
+}
+div.table-pills table {
+    width: 100%;
+}
+.table-pill tr td {
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(40deg, rgba(28, 207, 67, 0.822) 50%, rgba(248, 21, 21, 0.815) 50%);
+    font-size: 150%;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 2px 3px 4px black;
 }
